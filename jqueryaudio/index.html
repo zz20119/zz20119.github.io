@@ -55,22 +55,22 @@
         // json中title为歌手加歌名，命名与audioSrc一样，src为歌词，没有请传入空数组,audioHttp为外链专用 
         // 不是外链不要传 //不需要添加歌曲请在css中将按钮隐藏即可，其css样式为addSonBtn 
         // 外链方式，传入audioHttp属性，对应歌曲的链接 
-        // psAudio({
-        //     audioSrcFile: 'soures',
-        //     audioSrc: ['张茜-桥边姑娘'],
-        //     audioHttp: ['http://keithers.github.io/audio/bridgeGirl.m4a'],
-        //     audioBg: '',
-        //     audioListBg: '',
-        //     addAuto: true
-        // });
+        psAudio({
+            audioSrcFile: 'soures',
+            audioSrc: ['张茜-桥边姑娘'],
+            audioHttp: ['https://zz20119.github.io/audio/beautifulGirl.mp3'],
+            audioBg: '',
+            audioListBg: '',
+            addAuto: true
+        });
             // 本地方式，不传外链属性,但是本地歌曲的命名需与audioSrc里的一致即歌手-歌名
-            psAudio({ 
-                    audioSrcFile: '../audio/beautifulGirl.mp3', 
-                    audioSrc: ['beautiful girl'], 
-                    audioBg: '', 
-                    audioListBg: '', 
-                    addAuto: true 
-                }) 
+            // psAudio({ 
+            //         audioSrcFile: '../audio/beautifulGirl.mp3', 
+            //         audioSrc: ['beautiful girl'], 
+            //         audioBg: '', 
+            //         audioListBg: '', 
+            //         addAuto: true 
+            //     }) 
     </script>
 </body>
 
